@@ -1,0 +1,33 @@
+{
+  "name": "blablachat_b",
+  "version": "1.0.0",
+  "description": "messenger, an analog of whatsapp",
+  "main": "index.js",
+  "repository": "https://github.com/Sergius92739/BlaBlaChat_b",
+  "author": "Sergius92739",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
+    "formidable": "^3.5.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "move-file": "^3.1.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.10.0",
+    "pg": "^8.13.1",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
